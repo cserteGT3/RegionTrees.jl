@@ -14,12 +14,9 @@ This Julia package is a lightweight framework for defining N-Dimensional region 
 
 ## Usage
 
-See [examples/demo/demo.ipynb](examples/demo/demo.ipynb) for a tour through the API.
-You can start the [Pluto](https://plutojl.org) notebook with this oneliner:
+See the documentation for usage and examples.
 
-```cmd
-julia --project=examples -e 'import Pluto; Pluto.run(notebook="examples/demo/demo.jl")'
-```
+Original examples are exhibited in the documentation, but also kept in the `examples/` folder if someone prefers to work with jupyter notebooks (please note, that the notebooks may not work out of the box).
 
 You can also check out:
 
@@ -30,17 +27,13 @@ You can also check out:
 
 ## Gallery
 
-An adaptively sampled distance field, from `examples/adaptive_distances.ipynb`:
+An adaptively sampled distance field, from the documentation ([Examples/Adaptive Distance Fields]):
 
-![](http://rdeits.github.io/RegionTrees.jl/img/distance.svg)
+![](assets/adf.svg)
 
 An adaptively sampled model-predictive control problem, from `examples/adaptive_mpc.ipynb`:
 
-![](http://rdeits.github.io/RegionTrees.jl/img/mpc.svg)
-
-An adaptive distance field in 3D, from [AdaptiveDistanceFields.jl](https://github.com/rdeits/AdaptiveDistanceFields.jl):
-
-![](http://rdeits.github.io/RegionTrees.jl/img/distance_3d.png)
+![](assets/mpc.png)
 
 ## Related Packages
 
