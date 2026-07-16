@@ -16,7 +16,8 @@ This makes it easy to use `RegionTrees` to approximate functions or describe oth
 
 ## Usage
 
-See
+See the following pages for usage examples:
 
-* the [Demo](@ref) page for a quick walkthrough or
-* the [Adaptive Distance Fields](@ref) page for a more complex example
+* [Demo](@ref): a quick walkthrough
+* [Adaptive Distance Fields](@ref): a more complex example
+* [Adaptively Sampled Model Predictive Control](@ref): an adaptive approximation of a model-predictive controller
